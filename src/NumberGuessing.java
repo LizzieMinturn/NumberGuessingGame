@@ -21,8 +21,9 @@ public class NumberGuessing {
         if(pickedNumber<enteredNumber){
             System.out.println("Too high");
         }
-        
-
+        else if(pickedNumber>enteredNumber){
+            System.out.println("Too low");
+        }
 
 
     }
