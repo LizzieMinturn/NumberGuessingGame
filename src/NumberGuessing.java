@@ -18,7 +18,10 @@ public class NumberGuessing {
         enteredNumber = keyboard.nextInt();
         System.out.println(pickedNumber);
 
-
+        if(pickedNumber<enteredNumber){
+            System.out.println("Too high");
+        }
+        
 
 
 
