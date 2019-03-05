@@ -13,6 +13,8 @@ public class NumberGuessing {
         keyboard = new Scanner(System.in);
 
 
+        pickedNumber = (int)(Math.random()*100);
+        
 
 
 
