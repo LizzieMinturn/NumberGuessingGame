@@ -14,7 +14,10 @@ public class NumberGuessing {
 
 
         pickedNumber = (int)(Math.random()*100);
-        
+        System.out.println("enter a number between 0 and 100");
+        enteredNumber = keyboard.nextInt();
+        System.out.println(pickedNumber);
+
 
 
 
