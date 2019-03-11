@@ -18,25 +18,14 @@ public class NumberGuessing {
         enteredNumber = keyboard.nextInt();
         System.out.println(pickedNumber);
 
-        boolean value = true;
-        int number = 0;
-        while(value){
+        if(enteredNumber>pickedNumber){
             System.out.println("Too high");
-            if (enteredNumber>-1){
-                value = false;
-            }
         }
-        while(value){
+        else if(enteredNumber<pickedNumber){
             System.out.println("Too low");
-            if (enteredNumber<-1){
-                value = false;
-            }
         }
-        while(value){
+        else if(enteredNumber==pickedNumber){
             System.out.println("Correct!");
-            if (enteredNumber==-1){
-                value = false;
-            }
         }
 
     }
